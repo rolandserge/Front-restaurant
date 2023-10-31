@@ -5,7 +5,7 @@ import "../styles/Acceuil.css"
 import Photo from "../assets/photo.jpg"
 import Profil from '../assets/profil.jpg'
 import Tomate from "../assets/Tomate.png"
-import Frite from "../assets/frite.png"
+import Frite from "../assets/Frite.png"
 import Ingredient from "../assets/ingredient.png"
 import Crepe from "../assets/crepe.png"
 import Poupet from '../assets/poupet.png'
