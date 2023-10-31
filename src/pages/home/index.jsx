@@ -1,16 +1,16 @@
 import React from 'react';
 import "../../styles/Home.css"
-import Banner from '../../components/Header';
-import Acceuil from '../../components/Acceuil';
-import Titre from '../../components/Titre';
-import Cards from '../../components/Cards';
-import Cuisinier from '../../components/Cuisinier';
-import Plat from '../../components/Plat';
-import Temoignage from '../../components/Temoignage';
-import Cuisiniere from '../../components/Cuisiniere';
-import Reservation from '../../components/Reservation';
-import Contact from '../../components/Contact';
-import Footer from '../../components/Footer';
+import Banner from "../../components/header.jsx";
+import Acceuil from '../../components/acceuil.jsx';
+import Titre from '../../components/titre.jsx';
+import Cards from '../../components/cards.jsx';
+import Cuisinier from '../../components/cuisinier.jsx';
+import Plat from '../../components/plat.jsx';
+import Temoignage from '../../components/temoignage.jsx';
+import Cuisiniere from '../../components/cuisiniere.jsx';
+import Reservation from '../../components/reservation.jsx';
+import Contact from '../../components/contact.jsx';
+import Footer from '../../components/footer.jsx';
 
 const Home = () => {
     return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/Header.css"
-import Search from "./search"
+import Search from "./search.jsx"
 
 
 const Banner = () => {
