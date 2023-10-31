@@ -1,9 +1,9 @@
 import React from 'react';
 import "../styles/Cuisiniere.css"
-import Fb from "../Assets/Fbook.png"
-import Email from "../Assets/E-mail.png"
-import Twitter from "../Assets/twt.png"
-import Insta from "../Assets/Insta.png"
+import Fb from "../assets/Fbook.png"
+import Email from "../assets/E-mail.png"
+import Twitter from "../assets/twt.png"
+import Insta from "../assets/Insta.png"
 import Cuisiniere1 from "../assets/cuisiniere2.jpg"
 import Cuisiniere2 from "../assets/cuisiniere3.jpg"
 import Cuisiniere3 from "../assets/cuisiniere4.jpg"
@@ -29,10 +29,10 @@ const Cuisiniere = () => {
                         <p className='chef_nom'>Pierre N'gadeau</p>
                         <center>
                             <div className='sociaux'>
-                                <img src={Fb} alt="" />
-                                <img src={Insta} alt="" />
-                                <img src={Email} alt="" />
-                                <img src={Twitter} alt="" />
+                                <img src={Fb} alt="le logo de facebook" />
+                                <img src={Insta} alt="le logo d'instagram" />
+                                <img src={Email} alt="le logo de gmail" />
+                                <img src={Twitter} alt="le logo de twitter" />
                             </div>
                         </center>
                     </div>
