@@ -1,5 +1,6 @@
 import React from 'react';
 import "../../styles/Home.css"
+import Banner from '../../components/Header';
 import Acceuil from '../../components/Acceuil';
 import Titre from '../../components/Titre';
 import Cards from '../../components/Cards';
@@ -10,7 +11,6 @@ import Cuisiniere from '../../components/Cuisiniere';
 import Reservation from '../../components/Reservation';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
-import Banner from '../../components/Header';
 
 const Home = () => {
     return (
