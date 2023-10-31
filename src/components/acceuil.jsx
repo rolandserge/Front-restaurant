@@ -67,7 +67,7 @@ const Acceuil = () => {
                             <img src={User} alt="" />
                         </div>
                         <div className='photo_profil'>
-                            <img src={Photo} alt="" />
+                            <img src={Photo} alt="user photo" />
                         </div>
                         <div className='photo_profil'>
                             <img src={Profil} alt="" />
@@ -110,7 +110,7 @@ const Acceuil = () => {
                 </div>
             </div>
             <div className='ingredient'>
-                <img src={Ingredient} alt="" />
+                <img src={Ingredient} alt="l'image de l'ingredient" />
             </div>
         </div>
     );
