@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/Header.css"
-import Search from './search';
+import Search from "./search"
+
 
 const Header = () => {
+
     const [active, setActive] = useState(false)
+
     return (
         <div className='container_header'>
             <div className="logo">
