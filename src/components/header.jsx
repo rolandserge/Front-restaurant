@@ -4,7 +4,7 @@ import "../styles/Header.css"
 import Search from "./search"
 
 
-const Header = () => {
+const Banner = () => {
 
     const [active, setActive] = useState(false)
 
@@ -25,9 +25,9 @@ const Header = () => {
                         <Link to="#contact" className='lien'>Contact</Link>
                     </div>
                     <div className='header_auth'>
-                        <Link to="" className='search' onClick={() => setActive(true)}>Q</Link>
-                        <Link to={""} className='login'>Se connecter</Link>
-                        <Link to={""} className="register">S'inscrire</Link>
+                        <Link to="/" className='search' onClick={() => setActive(true)}>Q</Link>
+                        <Link to="/" className='login'>Se connecter</Link>
+                        <Link to="/" className="register">S'inscrire</Link>
                     </div>
                 </>
             }
@@ -35,4 +35,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Banner;
